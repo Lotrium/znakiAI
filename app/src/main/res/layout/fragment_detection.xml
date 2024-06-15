@@ -5,12 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".DetectionFragment">
 
-
     <androidx.camera.view.PreviewView
         android:id="@+id/preview_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 
     <TextView
         android:id="@+id/text_view"
@@ -21,6 +19,6 @@
         android:background="#55000000"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        android:text="@string/coinsDetect" />
+        android:text="Detecting..." />
 
 </FrameLayout>
