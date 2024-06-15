@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">znakiAI</string>
+    <string name="coinsDetect">Wykryto monet: 0\nWartość: 0.00 PLN</string>
+</resources>
