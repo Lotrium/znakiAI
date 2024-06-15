@@ -81,6 +81,15 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation ("org.tensorflow:tensorflow-lite-task-vision:0.4.0")
+    // Import the GPU delegate plugin Library for GPU inference
+    implementation ("org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.4.0")
+    implementation ("org.tensorflow:tensorflow-lite-gpu:2.9.0")
 
+    // CameraX
+    implementation ("androidx.camera:camera-core:$1.0.0")
+    implementation ("androidx.camera:camera-camera2:1.0.0")
+    implementation ("androidx.camera:camera-lifecycle:1.0.0")
+    implementation ("androidx.camera:camera-view:1.0.0-alpha24")
 
 }
